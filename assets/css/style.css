@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+/* styles del aside */
+
+aside {
+  width: 30%;
+  height: 100vh;
+  background-color: rgb(29, 51, 84);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  max-width: 400px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 8px;
+  border: 2px solid rgba(61, 204, 199, 1);
+  object-fit: cover;
+}
+
+.profile h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(234, 232, 255);
+}
+
+.profile p {
+  margin: 0;
+  font-size: 12px;
+  color: #aebac1;
+}
+
+.profile_icon {
+  margin-left: auto;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.btn.btn-primary {
+  background-color: rgba(61, 204, 199, 1);
+  border-color: rgba(61, 204, 199, 1);
+}
+
+.btn-primary {
+  border-radius: 20px;
+  padding: 8px 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.button_new_chat {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 30px;
+}
+
+.chat_user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.chat_user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid rgba(61, 204, 199, 1);
+}
+
+.chat_user h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(234, 232, 255);
+}
+
+.chat_user p {
+  margin: 0;
+  font-size: 12px;
+  color: #aebac1;
+}
+
+#foto_diego {
+  object-fit: cover;
+}
+
+i {
+  font-size: 16px;
+}
+
+/* styles del main */
+main {
+  background-color: rgb(29, 51, 84);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  min-height: 100vh;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+main img {
+  width: auto;
+  height: 250px;
+  margin-bottom: 0px;
+}
+
+main h2 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+main p {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  max-width: 400px;
+}
